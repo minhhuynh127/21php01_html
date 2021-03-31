@@ -1,0 +1,17 @@
+a{
+	text-decoration: none; 
+}
+a:link{
+	color: red;
+	/*trang web chua vao la mau red*/
+}
+a:visited{
+    color: green;
+    /*trang web da vao roi se thanh mau green*/
+}
+a:hover{
+	color yellow;
+}
+#Aquestion1,#Aquestion2,#Aquestion3{
+	height: 800px;
+}
