@@ -1,0 +1,32 @@
+body{
+	width: 800px;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #DDD;
+}
+#conten1, #conten2{
+	display: inline-block;
+	vertical-align: top;
+	padding: 30px;
+	font-size: 20px;
+}
+.firstname, .lastname{
+	display: inline-block;
+}
+a:hover{
+	color: yellow;
+}
+.login{
+	border: 1px solid black;
+	padding: 10px;
+	background-color: white;
+}
+.register{
+	border: 1px solid black;
+	padding: 10px;
+	background-color: white;
+}
+.control-label:after{
+	content: "*";
+	color: red;
+}

@@ -1,0 +1,29 @@
+body{
+	background-color: #DDD;
+	width: 600px;
+	padding: 30px;
+	margin: 0 auto;
+}
+.registration{
+	background-color: white;
+	vertical-align: middle;
+	font-family: inherit;
+	font-size: 25px;
+	padding: 50px;
+}
+h1{
+	vertical-align: center;
+}
+.register{
+	background-color: #00BFFF;
+}
+.login{
+	background-color: #DDD;
+}
+.register, .login{
+	border: none;
+	width: 240px;
+	vertical-align: middle;
+	font-family: all;
+	font-size: 30px;
+}

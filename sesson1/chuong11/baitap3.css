@@ -1,0 +1,22 @@
+body{
+	width: 800px;
+	background-color: white;
+	margin: 0 auto;
+}
+form{
+	width: 740px;
+	background-color: #00BFFF;
+	border: 2px dotted black;
+	padding: 10px;
+	font-size: 20px;
+}
+a{
+	width: 740px;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 50px;
+}
+.address{
+	width: 300px;
+	height: 150px;
+}
