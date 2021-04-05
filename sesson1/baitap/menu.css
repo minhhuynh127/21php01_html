@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+#menu ul{
+	list-style-type: none;
+	background-color: #0C7C60;
+	text-align: center;
+}
+#menu ul li{
+	width: 250px;
+	color: white;	
+	display: inline-table;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	position: relative;
+}
+#menu ul li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+#menu ul li a:hover{
+	background-color: #0C882B;
+	cursor: pointer;
+}
+#menu ul li > .menu2{
+	display: none;
+	position: absolute;
+}
+#menu ul li:hover .menu2{
+	display: block;
+	cursor: pointer;
+}
+#menu ul ul li{
+	position: relative;
+}
+#menu ul ul li > .menu3{
+	display: none;
+	position: absolute;
+}
+#menu ul ul li:hover .menu3{
+	display: block;
+	cursor: pointer;
+	left: 250px;
+	top: 0px;
+
+}
+.silidershow{
+	width: 100%;
+	height: 900px;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.navigation{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translate(-50%);
+	display: flex;
+}
+.path{
+	width: 15px;
+	height: 15px;
+	border: 2px solid black;
+	border-radius: 30px;
+}
+.path:hover{
+	background: #DDD;
+	transition: 1s;
+	border: 2px solid black;
+	cursor: pointer;
+
+}
+input[name="botton"]{
+	position: absolute;
+	visibility: hidden;
+}
+.sliders{
+	width: 500%;
+	height: 100%;
+	display: flex;
+}
+.slider{
+	width: 20%;
+	transition: 1s;	
+}
+.slider img{
+	width: 100%;
+	height: 80%;
+}
+#botton1:checked ~ .s1{
+	margin-left: 0;
+}
+#botton2:checked ~ .s1{
+	margin-left: -20%;
+}
+#botton3:checked ~ .s1{
+	margin-left: -40%;
+}
+#botton4:checked ~ .s1{
+	margin-left: -60%;
+}

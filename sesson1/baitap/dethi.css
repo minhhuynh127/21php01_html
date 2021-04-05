@@ -1,0 +1,105 @@
+body{
+	max-width: 720px;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+#header1 > .dethithu, .nam{
+	display: inline-block;
+	border-bottom: 3px solid #585858;
+}
+.dethithu{
+	width: 85%;
+	border-right: 3px solid #585858;
+	text-align: right;
+	padding-right: 5px;
+}
+.nam{
+	width: 10%;
+	font-weight: bold;
+}
+#header2 > .headerleft, .headerright{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding-right: 5px;
+}
+.truong{
+	text-align: center;
+	border-bottom: 1px solid #585858;
+}
+.made{
+	margin-top: 3px;
+	text-align: center;
+	border: 1px solid #585858;
+}
+.headerright{
+	border-bottom: 1px solid #585858;
+}
+#information{
+	margin-top: 15px;
+	width: 720px;
+	display: inline-block;
+}
+.hoten{
+	width: 80%;
+}
+.sobaodanh{
+	margin-left: 200px;
+	width: 20%;
+}
+.document{
+	font-style: italic;
+	border-bottom: 1px dashed #585858;
+	padding: 5px;
+	width: 720px;
+}
+.question{
+	width: 710px;
+	padding: none;
+}
+.colum-4{
+	width: 20%;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+.colum-6{
+	width: 40%;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+.colum-8{
+	width: 60%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	display: inline-block;
+}
+.colum-12{
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#feet > .link, .index{
+	display: inline-block;
+	vertical-align: top;
+}
+#feet{
+	width: 100%;
+	height: 50px;
+	
+}
+.link{
+	width: 40%;
+	height: 100%;
+	margin-left: 100px;
+	margin-top: 15px;
+}
+.index{
+	height: 100%;
+	float: right;
+}
