@@ -1,0 +1,49 @@
+body{
+	font-family: Arial;
+	font-size: 16px;
+	color: #000;
+	padding: 20px 0 0 20px;
+}
+#frames{
+	margin: 0px;
+	padding: 15px;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 350px;
+}
+#col1, #row4{
+	background-color: #BDBDBD;
+}
+#equal{
+	background-color: #00BFFF;
+	color: white;
+}
+.clear_all{
+	clear: both;
+}
+.button{
+	margin: 0px 0px 15px 15px;
+	padding: 10px 10px 10px 10px; 
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	width: 50px;
+	background-color: #E6E6E6;
+}
+.button.first{
+	margin- left: 0px;
+	padding-left: 0px;
+}
+#ketqua{
+	margin: 0px 0px 15px 0px;
+	padding: 10px;
+	text-align: right;
+	width: 320px;
+	height: 40px;
+	outline: none;
+	border: 1px solid #DDD;
+	border-radius: 10px;
+}
+.button:hover{
+	background-color: #666;
+}
