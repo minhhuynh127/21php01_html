@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tạo form nhập tính tiền điện</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<form action="" method="post">
+			<div class="form-input">
+				<h3>Họ và tên khách hàng</h3>
+				<span id="errow-name" class="errow"></span>
+				<input type="text" name="name" placeholder="Nhập họ và tên" id="name">
+				<span id="errow-name" class="errow"></span>
+			</div>
+			<div class="form-input">
+				<h3>Số đầu kì</h3>
+				<span id="errow-firstnumber" class="errow"></span>
+				<input type="text" name="firstNumber" placeholder="Nhập số đầu kì" id="firstnumber">
+			</div>
+			<div class="form-input">
+				<h3>Số cuối kì</h3>
+				<span id="errow-lastnumber" class="errow"></span>
+				<input type="test" name="lastNumber" placeholder="Nhập số cuối kì" id="lastnumber">
+			</div>
+			<div class="form-input">
+				<h3>Giới tính</h3>
+				<input type="radio" value="Male" name="gender" id="male" checked>
+				<label for="male">Male</label>
+				<input type="radio" value="Female" name="gender" id="female">
+				<label for="female">Female</label>
+			</div>
+			<div class="form-input">
+				<h3>Ngày sinh</h3>
+				<input type="date" name="birthDay" id="birthday">
+				<span id="errow-birthday" class="errow"></span>
+			</div>
+			<div class="form-input">
+				<h3>Ngày đầu kì</h3></tr>
+				<input type="date" name="firstDay" id="firstday">
+				<span id="errow-firstday" class="errow"></span>
+			</div>
+			<div class="form-input">
+				<h3>Ngày cuối kì</h3></tr>
+				<input type="date" name="lastDay" id="lastday">
+				<span id="errow-lastday" class="errow"></span>
+			</div>
+			<div>
+				<input type="button" id="ok" value="OK" onclick="checkValue()">
+			</div>
+	</form>
+	<div id="bill"></div>
+	<script type="text/javascript" src="form.js">
+	</script>
+</body>
+</html>
